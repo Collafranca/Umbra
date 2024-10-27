@@ -1,2 +1,27 @@
-# Umbra
-Luau 5.1 decompiler and disassembler.
+# Umbra Disassembler & Decompiler
+
+This project is a result of countless hours of hard work and development. We ask that you do not claim this project as your own, and give credit where it is due.
+
+> **Note:** This project is licensed under the GNU General Public License v3.0.
+
+## Debug Mode
+
+Turning on the `DEBUG` flag will slow down the decompilation process significantly.
+- **Performance Impact:** 0.000406s -> 0.002075s, around 5x slower
+
+The `DEBUG` flag is meant for development purposes only. Turn off before using in production.
+
+## Version Support
+
+> **Note:** There is no V6 support in this version! To get access, become a beta tester.
+
+## Issues
+
+- Makes everything a proto even if it isn't
+- Does not show jump targets (e.g., if code has `goto [5]` but only has 3 instructions, it doesn't show `::5::` and its dism)
+- Decompile is broken/really bad/unfinished
+- No type checking
+- Does not handle variables kindly
+- No v6 support (not an issue, just not added to this version lol)
+
+Please contribute and fix these bugs and more that you may find (except v6 support, we got dat)
