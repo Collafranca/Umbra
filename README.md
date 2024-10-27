@@ -1,4 +1,8 @@
-# Umbra Disassembler & Decompiler
+<p align="center">
+  <img src="./banner.png" alt="Umbra Disassembler Banner">
+</p>
+
+<h1 align="center">Umbra Disassembler & Decompiler</h1>
 
 This project is a result of countless hours of hard work and development. We ask that you do not claim this project as your own, and give credit where it is due.
 
