@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.png" alt="Umbra Disassembler Banner">
+  <img src="./banner.png" alt="Umbra Disassembler Banner" width="500px" height=auto>
 </p>
 
 <h1 align="center">Umbra Disassembler & Decompiler</h1>
