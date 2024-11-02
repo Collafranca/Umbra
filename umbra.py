@@ -545,6 +545,7 @@ def read_proto(
             "SUB": "-",
             "MUL": "*",
             "DIV": "/",
+            "IDIV": "//",
             "MOD": "%",
             "POW": "^",
         }
@@ -553,7 +554,7 @@ def read_proto(
             opcode_handlers[gen_op_name] = lambda op: f"R{A} = R{A} {math_ops[op[:-2]]} R{C}"
 
 
-        for gen_op_name in ["ADD", "SUB", "MUL", "DIV", "MOD", "POW"]:
+        for gen_op_name in ["ADD", "SUB", "MUL", "DIV", "IDIV", "MOD", "POW"]:
             opcode_handlers[gen_op_name] = (
                 lambda opcode: f"R{A} = R{B} {math_ops[opcode]} R{C}"
             )
