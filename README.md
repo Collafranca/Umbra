@@ -17,10 +17,6 @@ Turning on the `DEBUG` flag will slow down the decompilation process significant
 
 The `DEBUG` flag is meant for development purposes only. Turn off before using in production.
 
-## Version Support
-
-> **Note:** There is no V6 support in this version! To get access, become a beta tester.
-
 ## Issues
 
 - Makes everything a proto even if it isn't
@@ -28,6 +24,5 @@ The `DEBUG` flag is meant for development purposes only. Turn off before using i
 - Decompile is broken/really bad/unfinished
 - No type checking
 - Does not handle variables kindly
-- No v6 support (not an issue, just not added to this version lol)
 
-Please contribute and fix these bugs and more that you may find (except v6 support, we got dat)
+Please contribute and fix these bugs and more that you may find
