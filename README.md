@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./banner.png" alt="Umbra Disassembler Banner" width="500px" height=auto>
-</p>
-
 <h1 align="center">Umbra Disassembler & Decompiler</h1>
 
 This project is a result of countless hours of hard work and development. We ask that you do not claim this project as your own, and give credit where it is due.
@@ -24,4 +20,3 @@ The `DEBUG` flag is meant for development purposes only. Turn off before using i
 - Does not handle variables kindly
 
 Please contribute and fix these bugs and more that you may find
-
